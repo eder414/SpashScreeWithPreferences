@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     EditText editTextUsuario, editTextPassword;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.Theme_SpashScreeWithPreferences);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
